@@ -9,17 +9,19 @@ export default {
   theme: {
     extend: {
       screens: {
+        's': '415px',
+        'x': '456px',
         'xs': '550px',
         ...defaultTheme.screens,
       }
     },
-    colors: {
-      'primary': '#1F2533',
-      'secondary': '#70737C',
-      'brand-green': '#359740',
-      'yellow': '#FFCF55',
-      'light-blue': '#EFF2F8'
-    },
+    // colors: {
+    //   'primary': '#1F2533',
+    //   'secondary': '#70737C',
+    //   'brand-green': '#359740',
+    //   'yellow': '#FFCF55',
+    //   'light-blue': '#EFF2F8'
+    // },
     
   },
   plugins: [],
