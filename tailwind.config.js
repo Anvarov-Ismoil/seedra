@@ -14,6 +14,8 @@ export default {
       }
     },
     colors: {
+      "black": '#000000',
+      "white": "#ffffff",
       'primary': '#1F2533',
       'secondary': '#70737C',
       'brand-green': '#359740',

@@ -1,10 +1,15 @@
 <template>
   <main>
-    <h1 class="text-center text-4xl text-rose-500 font-bold">Hello Tailwind</h1>
+    <HeroSection />
   </main>
 </template>
 
 
 <script>
-
+import HeroSection from '../components/home/HeroSection.vue';
+export default {
+  components: {
+    HeroSection
+  }
+}
 </script>
