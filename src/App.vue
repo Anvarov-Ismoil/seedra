@@ -5,6 +5,7 @@
       <RouterLink to="/about">About</RouterLink>
     </nav> -->
   <!-- </header> -->
+  <h1>test</h1>
   <TheNavbar />
   <RouterView />
 </template>
