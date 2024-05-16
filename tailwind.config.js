@@ -9,6 +9,8 @@ export default {
   theme: {
     extend: {
       screens: {
+        's': '415px',
+        'x': '456px',
         'xs': '550px',
         ...defaultTheme.screens,
       }
