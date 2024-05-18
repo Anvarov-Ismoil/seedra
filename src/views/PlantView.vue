@@ -60,7 +60,7 @@ Primed spinach seeds will germinate both faster and more uniformly: In about fiv
                      <img src="../assets/images/plant-title.svg" alt="">
                   </div>
                </div>
-               <div class="title2">
+               <div class="title2 bg-brand-green">
                   <div class="time flex items-center gap-2 text-secondary">
                      <i class="fa-solid fa-clock"></i>
                      <h3>12.09.2021</h3>
@@ -76,6 +76,18 @@ Primed spinach seeds will germinate both faster and more uniformly: In about fiv
             </div>
          </div>
 
+         <div class="navigate flex justify-between bg-brand-green mt-5 p-5 rounded-2xl">
+            <div class="text flex flex-col">
+               <h3>Title was helpful?</h3>
+               <h2>Share with friends</h2>
+            </div>   
+
+            <div class="icons flex gap-4">
+               <img src="../assets/images/plant-navigate-icon1.svg" alt="">
+               <img src="../assets/images/plant-navigate-icon2.svg" alt="">
+               <img src="../assets/images/plant-navigate-icon3.svg" alt="">
+            </div>
+         </div>
 
       </div>
    </section>
