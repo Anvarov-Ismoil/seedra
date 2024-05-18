@@ -18,3 +18,8 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+a.router-link-exact-active {
+  color: #359740;
+  font-weight: 500;
+}

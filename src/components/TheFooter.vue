@@ -14,7 +14,9 @@
                </ul>
                <!-- logo -->
                <div class="logo flex items-center justify-center sm:mb-5 lg:mb-0 -order-1 lg:order-none w-full lg:w-auto">
-                  <img src="../assets/images/logo.svg" alt="logo">
+                  <router-link to="/">
+                     <img src="../assets/images/logo.svg" alt="logo">
+                  </router-link>
                </div>
                <!-- last -->
                <ul class="flex flex-col sm:flex-row flex-grow md:flex-grow-0 justify-center gap-5 md:gap-0">
@@ -89,10 +91,7 @@ export default {
 
 
 <style scoped>
-a.router-link-exact-active {
-   color: #359740;
-   font-weight: 500;
-}
+
 
 .footer .container .abouts ul li:last-child .link {
    border-right: none;

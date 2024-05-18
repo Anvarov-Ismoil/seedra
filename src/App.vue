@@ -6,7 +6,9 @@
     </nav> -->
   <!-- </header> -->
   <TheNavbar />
-  <RouterView />
+  <Transition name="fade">
+    <RouterView />
+  </Transition>
   <TheFooter />
 </template>
 
@@ -16,7 +18,19 @@ import TheNavbar from './components/TheNavbar.vue'
 import TheFooter from './components/TheFooter.vue'
 export default {
   components: {
-    TheNavbar , TheFooter
+    TheNavbar, TheFooter
   }
 }
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
