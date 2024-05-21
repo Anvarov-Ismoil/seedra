@@ -27,16 +27,16 @@
                <img class="w-10" src="../assets/images/email.png" alt="#">
                </div>
             </div>
-            <label for="name">
+            <label for="name" class="text-secondary font-normal text-[14px]">
                Name
             </label>
             <input type="text" id="name" placeholder="Name" class="w-full max-w-96 h-[2.5rem] border border-light-blue outline-none  mb-5 px-4 rounded-md "> 
 
-            <label for="email">
+            <label for="email" class="text-secondary font-normal text-[14px]">
                Email
             </label>
             <input type="text" id="email" placeholder="Email" class="w-full max-w-96 h-[2.5rem] border border-light-blue outline-none  mb-5 px-4 rounded-md">  
-            <label for="textarea">
+            <label for="textarea" class="text-secondary font-normal text-[14px]">
                Message
             </label>
              <textarea id="textarea" placeholder="Your Message" class="w-full max-w-96 h-[7rem] border border-light-blue outline-none  mb-3 resize-none px-4 rounded-md"></textarea>
