@@ -17,7 +17,7 @@
       </div>
 
       <div class="img">
-        <img src="../assets/images/about-hero.svg" alt="">
+        <img class="w-[500px] ml-0 xl:ml-7" src="../assets/images/about-hero.svg" alt="">
       </div>
     </div>
   </section>
